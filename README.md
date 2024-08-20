@@ -1,39 +1,16 @@
-# drive-cost-planner
+# FuelCulator 🚗⛽️
 
-This template should help get you started developing with Vue 3 in Vite.
+![FuelCulator Screenshot](./public/images/fuelculator.png)
 
-## Recommended IDE Setup
+**FuelCulator** is a simple and modern web app designed to help you calculate the cost of your trips based on distance, fuel economy, and fuel price. Whether you're planning a road trip or just curious about your daily commute costs, FuelCulator provides an easy way to estimate your fuel expenses.
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+## Features
 
-## Type Support for `.vue` Imports in TS
+- **Distance Input:** Enter the length of your trip in kilometers.
+- **Fuel Economy:** Input your vehicle's fuel efficiency in liters per 100 kilometers.
+- **Fuel Price:** Set the current price of fuel per liter.
+- **Real-time Calculation:** Get an instant estimate of your trip cost.
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
+## Demo
 
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
-
-## Project Setup
-
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Type-Check, Compile and Minify for Production
-
-```sh
-npm run build
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
-```
+Check out the live demo [here](https://fuelculator.vercel.app/).
